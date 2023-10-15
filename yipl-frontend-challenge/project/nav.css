@@ -1,0 +1,123 @@
+li,
+a {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+nav {
+    position: absolute;
+    top: 0;
+    z-index: 1004;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 80px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+.clogo {
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.nav-left {
+    display: flex;
+    width: con;
+    align-items: center;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    width: max-content;
+
+    padding: 0px 20px;
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: blue;
+}
+
+
+.container {
+
+    color: white;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+
+}
+
+
+.container:hover input {
+    width: 380px;
+    height: 45px;
+    /* margin-top: 85%;
+    margin-right: 200%; */
+    background: white;
+    border-radius: 20px;
+}
+
+.container input {
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+}
+
+.container i .fa-solid fa-magnifying-glass {
+    background: transparent;
+    color: white;
+    z-index: 1008;
+}
+
+i .angledown {
+    color: rgb(255, 255, 255);
+}
+
+.container i {
+    color: white;
+}
+
+.item {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    overflow: hidden;
+}
+
+.item i {
+    color: blue;
+    margin-right: 97%;
+}
