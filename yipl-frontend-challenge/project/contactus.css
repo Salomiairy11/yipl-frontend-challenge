@@ -1,0 +1,50 @@
+.contact-form{
+    justify-content: space-between;
+}
+
+.f-top{
+    display: flex;
+    gap: 16px   ;
+}
+
+.ftop-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.ftop-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-top input{
+    width:267px;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+#email{
+    width:550px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#msg{
+    width: 550px;
+    height:80px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.submit2{
+    width:90px;
+    height:40px;
+    background: none;
+    border: 1px solid rgb(47, 47, 253);
+    border-radius: 9px;
+    margin-top:7%;
+    margin-left: 40%;
+}
