@@ -1,0 +1,52 @@
+.content{
+    font-family: Inter;
+}
+
+.content .who-are-we{
+    margin-top: 4%;
+    color:#767f91;
+    line-height: 25px;
+}
+.content p{
+    font-weight: 100;
+}
+.content a{
+    color: #2475a1;
+    font-size: smaller;
+}
+
+.about-section {
+    padding: 96px 160px;
+    display: flex;
+}
+
+.about-section .content {
+    width: 368px;
+}
+.photos{
+    display:flex;
+}
+ .photos .set1{
+        display:flex;
+        flex-direction: column;
+        padding:25px;
+        padding-bottom: 30px;
+ }
+
+ .set1 .name1{
+    padding:30px;
+ }
+
+ .set1 .name2{
+    padding:20px;
+ }
+
+ .set2 .name3{
+    padding: 30px;;
+ }
+ .photos .set2{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    padding-top: 95px;
+}
