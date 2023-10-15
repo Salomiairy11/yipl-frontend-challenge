@@ -1,0 +1,77 @@
+.campaigns {
+    width: 100%;
+    padding: 96px 160px;
+    background-color: #F9F9FF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campaign-header {
+    width: 768px;
+}
+
+.campaign-header h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campaign-header p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #667085;
+}
+
+.campaign-cards {
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+}
+
+.campaign-card {
+    border-radius: 22px;
+    overflow: hidden;
+    width: 352px;
+    height: 597px;
+    background-color: white;
+}
+
+.campaign-card .camp-contents {
+    padding: 30px;
+    display: flex;
+    height: 245px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campaign-card .camp-img img {
+    height: 352px;
+    width: 352px;
+    object-fit: cover;
+}
+
+
+.campaign-card .camp-contents h4 {
+    font-size: 18px;
+}
+
+.campaign-card .camp-contents p {
+    font-size: 14px;
+
+    margin: 0px;
+    line-height: 21px;
+}
+
+.campaign-card .camp-contents a {
+    font-size: 16px;
+
+    margin-top: 25px;
+    color: #1D6FA3;
+}
+
+.campaign-card .camp-contents p,
+h4 {
+    text-align: left;
+}
