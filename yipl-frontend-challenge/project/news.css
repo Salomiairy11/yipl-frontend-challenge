@@ -1,0 +1,80 @@
+.icons{
+    display:flex;
+    background:#f4f4f5;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons .img{
+    width:180px;
+    height:50px;
+}
+
+.news button{
+    width:150px;
+    height:55px;
+    background-color: white;
+    border:1px solid rgb(75, 75, 248);
+    padding:20px;
+    margin:60px;
+}
+
+.companies {
+    height: 200px;
+    background-color: #F9F9FF;
+}
+
+.news {
+    padding: 96px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-items .campaign-card .camp-img img {
+    width: 315px;
+    height: 201px;
+    border-radius: 16px;
+}
+
+.news-items .campaign-card {
+
+    height: 470px;
+    padding: 20px;
+    border: 20px;
+    background-color: #F9F9FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.news-items .campaign-card .news-contents {
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-items .news-contents a {
+    font-size: 16px;
+    margin-top: 25px;
+    color: #1D6FA3;
+
+}
+
+.news-items .news-contents p {
+    line-height: 24px;
+    color: #667085;
+}
+
+.news-items .news-contents h4 {
+    font-size: 24px;
+
+}
+
+.news-items {
+    display: grid;
+    gap: 20px;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
