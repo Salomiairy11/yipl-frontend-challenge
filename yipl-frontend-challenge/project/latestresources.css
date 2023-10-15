@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+    box-sizing: border-box;
+
+}
+
+main {
+    height: 100vh;
+}
+
+.latest-resources {
+    padding: 96px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F9FF;
+}
+
+.res-item{
+    display:flex;
+    justify-content: flex-start;
+    padding:20px;
+}
+.res-item .tool{
+    margin-top: 15%;
+    height:40px;
+    width:40px;
+    background-color: #eadaf5;
+    align-items: center;
+    padding:10px;
+    border-radius:10px;
+    color:rgba(184, 67, 184, 0.938);
+}
+
+.res-item .tool p{
+    rotate: 90deg;
+    font-size: xx-small;
+    padding-left: 30px;
+}
+
+.latest-resources .res-item {
+    height: 337px;
+    width: 353px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.latest-resources .res-items {
+    display: flex;
+    gap: 20px;
+}
+
+.res-item .paper{
+    margin-top: 15%;
+    height:40px;
+    width:40px;
+    background-color: #eadaf5;
+    align-items: center;
+    padding:15px;
+    border-radius:10px;
+    color:rgba(184, 67, 184, 0.938);
+}
+
+.res-item .check{
+    margin-top: 15%;
+    height:40px;
+    width:40px;
+    background-color: #eadaf5;
+    align-items: center;
+    padding:15px;
+    border-radius:10px;
+    color:rgba(184, 67, 184, 0.938);
+}
+
+.res-items .res-item{
+    display:flex;
+    flex-direction: column;
+}
+
+.res-item .content{
+    margin-top: 10%;
+}
+
+.res-item .item-content{
+    margin-top: 4%;
+    color:rgb(150, 149, 149);
+}
+
+.item-content{
+        margin-top: 20%;
+        color:rgb(150, 149, 149);   
+}
+.item-content2{
+    margin-top: 20%;
+    color:rgb(150, 149, 149);
+}
+
+.item-content3{
+    margin-top: 20%;
+    color:rgb(150, 149, 149);
+}
+
+
+.arrow{
+    color:rgb(77, 77, 243);
+}
+
+.latest-resources button {
+    height: 44px;
+    width: 173px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.contact-us {
+    padding: 96px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
